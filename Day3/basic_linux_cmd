@@ -1,0 +1,50 @@
+Task: What is the linux command to
+
+1. To view what's written in a file.
+    cat <file_name>
+
+
+2. To change the access permissions of files.
+    chmod  -rwx <file.name>
+
+    r (read): 4
+    w (write): 2
+    x (execute): 1  
+
+
+3. To check which commands you have run till now.
+    history
+  
+4. To remove a directory/ Folder.
+    rmdir  <directory_name>
+    rm <file_name>
+
+5. To create a fruits.txt file and to view the content.
+    vim fruits.txt  (create a file with content to write)
+    cat fruits.txt  ( view the content) 
+
+
+6. Add content in devops.txt (One in each line) - Apple, Mango, Banana, Cherry, Kiwi, Orange, Guava.
+    echo -e "Apple\nMango\nBanana\nCherry\nKiwi\nOrange\nGuava" > devops.txt
+
+
+7. To Show only top three fruits from the file.
+   head -n 3 <file_name>
+
+
+8. To Show only bottom three fruits from the file.
+   tail -n 3 <filename>
+
+
+9. To create another file Colors.txt and to view the content.
+   cat > Colors.txt
+   cat Colors.txt
+   
+10. Add content in Colors.txt (One in each line) - Red, Pink, White, Black, Blue, Orange, Purple, Grey.
+
+  echo -e " Red\nPink\nWhite\nBlack\nBlue\nOrange\nPurple\nGrey" > Colors.txt
+  echo "Red" > Colors.txt echo "Pink" >> Colors.txt echo "White" >> Colors.txt echo "Black" >> Colors.txt echo "Blue" >> Colors.txt echo "Orange" >> Colors.txt echo "Purple" >> Colors.txt echo "Grey" >> Colors.txt 
+
+
+11. To find the difference between fruits.txt and Colors.txt file.
+    diff fruits.txt  Colors.txt
